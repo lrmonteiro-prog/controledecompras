@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/itemProduto"
+            android:onClick="produto"
+            android:title="Produtos Cadastrados"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/itemCompra"
+            android:onClick="listaProduto"
+            android:title="Lista de Compra"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/itemIncluir"
+            android:icon="@drawable/ic_baseline_add_circle_24"
+            android:onClick="incluir"
+            android:title="Incluir Produto"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/itemValidade"
+            android:onClick="validade"
+            android:title="Validade  Produto"
+            app:showAsAction="never"/>
+</menu>
